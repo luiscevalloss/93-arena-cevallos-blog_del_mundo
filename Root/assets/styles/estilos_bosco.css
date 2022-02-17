@@ -3,3 +3,6 @@ body {
     color: rgb(252, 250, 250);
 }
 article { color:greenyellow }
+nav > ul > li { class="resaltado" 
+
+ }
