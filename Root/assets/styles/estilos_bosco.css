@@ -16,6 +16,14 @@ nav > ul > li {
     text-align: center;
     font-size: 3rem;
 }
-article{
+article{ 
+    padding: 1.5rem;
+    border-bottom: 1px, solid, white;
+  
+}
+.ilustracion{ 
+    border: 4px, solid, white;
     
+
+
 }
