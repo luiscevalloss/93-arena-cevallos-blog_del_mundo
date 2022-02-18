@@ -23,7 +23,14 @@ article{
 }
 .ilustracion{ 
     border: 4px, solid, white;
-    
 
+}
+#titulo_del_blog{text align: center; font-size: 3rem;}
 
+nav>ul>li {
+  list-style: none;
+}  
+
+nav>ul>li {
+    text-decoration: none;
 }
