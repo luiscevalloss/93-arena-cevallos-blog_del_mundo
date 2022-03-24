@@ -5,9 +5,16 @@ body {
 article {
      color:rgb(255, 141, 47); 
 }
-nav > ul > li {
 
- }
+nav > ul > li {
+    list-style: none;
+}
+
+ nav > ul > li > a{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
 
  .resaltado {
     color: rgb(255, 136, 0);
@@ -30,10 +37,11 @@ article{
 
 nav>ul>li {
   list-style: none;
+  text-decoration: none;
 }  
 
-nav>ul>li {
-    text-decoration: none;
+nav {
+    font-size: 1.3rem ;
 }
 
 /* grid */
@@ -62,7 +70,7 @@ section>main {
 }
 
 section>aside {
-    /* esta sección se extenderá 12 columnas. */
+    /* esta sección se extenderá 12+1 columnas. */
     grid-column: span 4;
 }
 
@@ -75,4 +83,15 @@ section>footer{
 
 
 /* Termina grid */
+
+nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 0.5rem;
+}
+
+
+
 
