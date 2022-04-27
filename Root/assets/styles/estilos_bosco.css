@@ -5,8 +5,9 @@ body {
 article {
      color:greenyellow; 
 }
-nav > ul > li {
-
+nav>ul>li>a {
+    text-decoration:underline ;
+    color:greenyellow;
  }
 
  .resaltado {
@@ -17,7 +18,7 @@ nav > ul > li {
     font-size: 3rem;
 }
 article{ 
-    padding: 1.5rem;
+    padding: 1.3rem;
     border-bottom: 1px, solid, white;
   
 }
@@ -31,12 +32,18 @@ article{
 #titulo_del_blog{text align: center; font-size: 3rem;}
 
 nav>ul>li {
-  list-style: none;
+    list-style: none;
+    text-decoration: none;
 }  
 
-nav>ul>li {
-    text-decoration: none;
-}
+nav>ul {
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff ;
+    padding-bottom: 0.5rem;
+}  
+
 
 /* grid */
 section {
