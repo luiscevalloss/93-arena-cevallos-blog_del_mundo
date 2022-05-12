@@ -29,7 +29,7 @@ article{
 
 
 }
-#titulo_del_blog{text align: center; font-size: 3rem;}
+#titulo_del_blog{text-align: center; font-size: 3rem;}
 
 nav>ul>li {
     list-style: none;
@@ -80,7 +80,25 @@ section>footer{
     grid-column: span 12;
 }
 
+article header hgroup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
+#footer_blog {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-left: 0rem;
+    padding-right:0rem ;
+    front-size
+}
 
 /* Termina grid */
+#footer_blog div:nth-child(2) {
+    front: size 0.9rem;
+}
