@@ -6,6 +6,11 @@ article {
      color:rgb(255, 141, 47); 
 }
 
+#footer_blog{
+
+}
+
+
 nav > ul > li {
     list-style: none;
 }
@@ -103,5 +108,27 @@ article > header > hgroup > h2 {
     align-items: center;
 }
 
+#footer_blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem ;
+    padding-top: 4rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    front-size
+}
 
+/* Termina grid */
+#footer_blog div:nth-child(2) {
+    front: size o.0
+}
 
+aside div img {
+    /* la imagen tendrá color de fondo blanco */
+    background-color: #fff;
+    /* habrá un espacio entre el borde y el contenido de 0.5rem */
+    padding: 0.5rem;
+    /* redondea el borde para que sea un círculo */
+    border-radius: 50%;
+}
